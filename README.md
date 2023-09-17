@@ -4,6 +4,8 @@
 # libminer
 
 <!-- badges: start -->
+
+[![R-CMD-check](https://github.com/deeprich/libminer/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/deeprich/libminer/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 The goal of libminer is to help you understand your libraries better and
@@ -29,7 +31,7 @@ library(libminer)
 lib_summary()
 #>                                                                                        Library
 #> 1                         /Library/Frameworks/R.framework/Versions/4.3-arm64/Resources/library
-#> 2 /private/var/folders/c0/97wx_pg14y76fkmlg4vwvvxw0000gn/T/RtmprBjkaL/temp_libpath663456954791
+#> 2 /private/var/folders/c0/97wx_pg14y76fkmlg4vwvvxw0000gn/T/RtmprBjkaL/temp_libpath66345692c9d3
 #>   n_packages
 #> 1        231
 #> 2          1
@@ -37,10 +39,10 @@ lib_summary()
 lib_summary(sizes=TRUE)
 #>                                                                                        Library
 #> 1                         /Library/Frameworks/R.framework/Versions/4.3-arm64/Resources/library
-#> 2 /private/var/folders/c0/97wx_pg14y76fkmlg4vwvvxw0000gn/T/RtmprBjkaL/temp_libpath663456954791
+#> 2 /private/var/folders/c0/97wx_pg14y76fkmlg4vwvvxw0000gn/T/RtmprBjkaL/temp_libpath66345692c9d3
 #>   n_packages  lib_size
 #> 1        231 507330333
-#> 2          1     14297
+#> 2          1     37410
 ```
 
 What is special about using `README.Rmd` instead of just `README.md`?
